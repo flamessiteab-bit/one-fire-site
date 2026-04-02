@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>ONE FIRE - Flames</title>
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,13 +16,13 @@
 
 <!-- VIDEO DE FUNDO -->
 <video autoplay muted loop playsinline class="bg-video">
-  <source src="Projeto.mp4" type="video/mp4">
+  <source src="./videos/videon.mp4" type="video/mp4">
   Seu navegador não suporta vídeo.
 </video>
 
 <!-- HEADER -->
 <header class="header">
-  <img src="logo.png" alt="Flames Logo" class="logo">
+  <img src="./img/logo.png" alt="Flames Logo" class="logo">
 </header>
 
 <!-- HERO -->
@@ -36,9 +36,9 @@
 <!-- GALERIA -->
 <section class="gallery fade-in">
   <div class="gallery-container">
-    <div class="card"><img src="faz.jpg" alt=""></div>
-    <div class="card"><img src="ovelhao.jpg" alt=""></div>
-    <div class="card"><img src="segue.jpg" alt=""></div>
+    <div class="card"><img src="./img/faz.jpg" alt=""></div>
+    <div class="card"><img src="./img/ovelhao.jpg" alt=""></div>
+    <div class="card"><img src="./img/segue.jpg" alt=""></div>
   </div>
 </section>
 
@@ -47,7 +47,7 @@
   <div class="video-text-container glass">
     <div class="video-box">
       <video controls preload="metadata">
-        <source src="Projeto.mp4" type="video/mp4">
+        <source src="./videos/project.mp4" type="video/mp4">
         Seu navegador não suporta vídeo.
       </video>
     </div>
@@ -66,17 +66,19 @@
   <div class="insta-container">
     <div class="insta-glass-wrapper">
       <div class="insta-left">
-        <img src="tagr.jpg" alt="Imagem Flames">
+        <img src="./img/tagr.jpg" alt="Imagem Flames">
       </div>
       <div class="insta-right">
         <div class="card-block">
           
+          <!-- Instagram -->
           <div class="insta-card" id="instaCard">
             <a href="https://www.instagram.com/redeflames/" target="_blank">F L A M E S </a>
             <p>Siga nosso perfil para ficar por dentro de todas as programações e eventos do grupo Flames.</p>
             <canvas id="instaParticles"></canvas>
           </div>
 
+          <!-- Localização -->
           <div class="location-card">
             <h2>L O C A L I Z A Ç Ã O</h2>
             <p>CRAZY FOR JESUS</p>
@@ -120,6 +122,6 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
